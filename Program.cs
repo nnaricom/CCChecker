@@ -14,6 +14,7 @@ namespace CCChecker
 
 
             List<CreditCard> CardList = JsonConvert.DeserializeObject<List<CreditCard>>(json);
+            Console.WriteLine(CardList.Count);
             Console.WriteLine(CardList[0].CardNumber);
 
             foreach (CreditCard cc in CardList)

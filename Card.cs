@@ -5,6 +5,7 @@ namespace CCChecker
     public class CreditCard
     {
         public long CardNumber;
+           
         public string IssuingNetwork;
         public CreditCard(long CardNumber, string IssuingNetwork)
         {
