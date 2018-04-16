@@ -708,22 +708,24 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nnari\\Desktop\\CCChecker\\CCChecker.csproj",
+      "projectUniqueName": "D:\\Development\\CCChecker\\CCChecker.csproj",
       "projectName": "CCChecker",
-      "projectPath": "C:\\Users\\nnari\\Desktop\\CCChecker\\CCChecker.csproj",
+      "projectPath": "D:\\Development\\CCChecker\\CCChecker.csproj",
       "packagesPath": "C:\\Users\\nnari\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nnari\\Desktop\\CCChecker\\obj\\",
+      "outputPath": "D:\\Development\\CCChecker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\nnari\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\nnari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -742,12 +744,12 @@
         "dependencies": {
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0.0",
             "autoReferenced": true
           },
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "[11.0.2, )"
+            "version": "11.0.2"
           }
         },
         "imports": [

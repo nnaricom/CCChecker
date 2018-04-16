@@ -8,3 +8,13 @@ C:\Users\nnari\Desktop\CCChecker\obj\Debug\netcoreapp2.0\CCChecker.AssemblyInfoI
 C:\Users\nnari\Desktop\CCChecker\obj\Debug\netcoreapp2.0\CCChecker.AssemblyInfo.cs
 C:\Users\nnari\Desktop\CCChecker\obj\Debug\netcoreapp2.0\CCChecker.dll
 C:\Users\nnari\Desktop\CCChecker\obj\Debug\netcoreapp2.0\CCChecker.pdb
+D:\Development\CCChecker\bin\Debug\netcoreapp2.0\CCChecker.deps.json
+D:\Development\CCChecker\bin\Debug\netcoreapp2.0\CCChecker.runtimeconfig.json
+D:\Development\CCChecker\bin\Debug\netcoreapp2.0\CCChecker.runtimeconfig.dev.json
+D:\Development\CCChecker\bin\Debug\netcoreapp2.0\CCChecker.dll
+D:\Development\CCChecker\bin\Debug\netcoreapp2.0\CCChecker.pdb
+D:\Development\CCChecker\obj\Debug\netcoreapp2.0\CCChecker.csproj.CoreCompileInputs.cache
+D:\Development\CCChecker\obj\Debug\netcoreapp2.0\CCChecker.AssemblyInfoInputs.cache
+D:\Development\CCChecker\obj\Debug\netcoreapp2.0\CCChecker.AssemblyInfo.cs
+D:\Development\CCChecker\obj\Debug\netcoreapp2.0\CCChecker.dll
+D:\Development\CCChecker\obj\Debug\netcoreapp2.0\CCChecker.pdb
