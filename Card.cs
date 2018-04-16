@@ -1,28 +1,37 @@
 using System;
+using Newtonsoft.Json;
+using System.Collections.Generic;
 
 namespace CCChecker
 {
+
+    public class RootObject
+    {
+        public CreditCard CreditCard { get; set; }
+    }
+
     public class CreditCard
     {
-        public long CardNumber;
-           
-        public string IssuingNetwork;
+        public string IssuingNetwork { get; set; }
+        public long CardNumber { get; set; }
+
+
         public CreditCard(long CardNumber, string IssuingNetwork)
         {
             this.CardNumber = CardNumber;
             this.IssuingNetwork = IssuingNetwork;
         }
-    
+
         public bool Validate()
         {
             string ccstring = CardNumber.ToString();
             char[] chars = ccstring.ToCharArray();
-            if(chars.Length <= 19)
+            if (chars.Length <= 19)
             {
                 int sum = 0;
-                for(int i= 0; i < chars.Length; i++)
+                for (int i = 0; i < chars.Length; i++)
                 {
-                    if(i % 2 == 0)
+                    if (i % 2 == 0)
                     {
                         int value = Int32.Parse(chars[i].ToString());
                         value = value * 2;
@@ -46,7 +55,7 @@ namespace CCChecker
                 }
                 else
                 {
-                    return false;    
+                    return false;
                 }
             }
             else

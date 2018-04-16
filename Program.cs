@@ -9,14 +9,21 @@ namespace CCChecker
     {
         static void Main(string[] args)
         {
-            
+            //Get json from path
             string json = File.ReadAllText(@"C:\cards.json");
 
+            //Deserialize to array of CreditCard
+            RootObject[] root = JsonConvert.DeserializeObject<RootObject[]>(json);
+            //Prepare a list
+            List<CreditCard> CardList = new List<CreditCard>();
 
-            List<CreditCard> CardList = JsonConvert.DeserializeObject<List<CreditCard>>(json);
-            Console.WriteLine(CardList.Count);
-            Console.WriteLine(CardList[0].CardNumber);
-
+            //Loop array members to our newly created list
+            for(int i = 0; i < root.Length; i++)
+            {
+                CardList.Add(root[i].CreditCard);
+            }
+            
+            //Validate each card with Luhn's algorithm
             foreach (CreditCard cc in CardList)
             {
                 if (cc.Validate())
